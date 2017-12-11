@@ -21,7 +21,8 @@ logging:
 info:
   app:
     name: @project.artifactId@
-    encoding: @project.build.sourceEncoding@
+    encoding: @project.build.sourceEncoding@-Dfile.encoding=UTF-8
+
     java:
       source: @java.version@
       target: @java.version@
